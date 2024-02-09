@@ -71,7 +71,7 @@ def leTodosCSV(folder_path):
     return diretorios
 
 def criaTxt(lower, pathXlsm, pathDiretorios = "data/"):
-    #xlsmToCsv(pathXlsm, pathDiretorios)
+    xlsmToCsv(pathXlsm, pathDiretorios)
     diretorios = leTodosCSV(pathDiretorios)
     finalQuery = ''
 
